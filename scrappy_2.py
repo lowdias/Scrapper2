@@ -1,3 +1,11 @@
+"""
+Author: Your Name
+Email: your_email@example.com
+Date: March 24, 2023
+
+Description: Scrapes news articles from a website using Scrapy and stores them in a SQLite database, run "scrapy runspider scrappy_2.py" in a terminal to begin the crawl
+"""
+
 import scrapy
 import sqlite3
 
@@ -5,7 +13,7 @@ import sqlite3
 class BBCSpider(scrapy.Spider):
     name = "bbc"
     start_urls = [
-        "https://www.reuters.com/world/",
+        "https://www.bbc.com/news",
     ]
 
     def __init__(self):

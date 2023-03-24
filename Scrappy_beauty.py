@@ -1,3 +1,11 @@
+"""
+Author: Ilias Kamal
+Email: ilias.kamal@example.com
+Date: March 24, 2023
+
+Description: Scrapes news articles from a website using BeautifulSoup and stores them in a SQLite database
+"""
+
 import requests
 from bs4 import BeautifulSoup
 import sqlite3
