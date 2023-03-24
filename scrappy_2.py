@@ -1,6 +1,6 @@
 """
-Author: Your Name
-Email: your_email@example.com
+Author: Ilias Kamal
+Email: ilias.kamal@gmail.com
 Date: March 24, 2023
 
 Description: Scrapes news articles from a website using Scrapy and stores them in a SQLite database, run "scrapy runspider scrappy_2.py" in a terminal to begin the crawl
